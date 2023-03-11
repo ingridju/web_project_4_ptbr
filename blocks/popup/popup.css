@@ -1,0 +1,11 @@
+.popup {
+  display: grid;
+  max-width: 478.28px;
+  position: fixed;
+  top: 119px;
+  left: 41%;
+  grid-template-areas:
+    ".close"
+    "form.";
+  display: none;
+}

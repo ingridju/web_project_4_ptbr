@@ -1,0 +1,7 @@
+.user__edit {
+  border: 1px solid #ffffff;
+  max-width: 24px;
+  padding: 7px;
+  margin: 37px 0 0 0;
+  grid-area: edit;
+}

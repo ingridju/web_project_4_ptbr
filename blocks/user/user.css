@@ -1,0 +1,7 @@
+.user {
+  display: grid;
+  grid-template-columns: 190px 380px auto 150px;
+  grid-template-areas:
+    "picture name edit adicionar"
+    "picture description . .";
+}

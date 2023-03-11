@@ -1,0 +1,5 @@
+.popup__closed_button {
+  background-color: #000000;
+  max-width: 40px;
+  grid-area: close;
+}
