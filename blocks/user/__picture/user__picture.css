@@ -3,3 +3,9 @@
   border-radius: 50%;
   grid-area: picture;
 }
+
+@media screen and (max-width: 768px) {
+  .user__picture {
+    max-width: 148.75px;
+  }
+}

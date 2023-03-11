@@ -5,3 +5,9 @@
   border-bottom: solid rgba(84, 84, 84, 0.2);
   margin-top: 29.74px;
 }
+
+@media screen and (max-width: 320px) {
+  .form__write_camp {
+    min-width: 150px;
+  }
+}

@@ -5,3 +5,27 @@
   margin: 37px 0 0 0;
   grid-area: edit;
 }
+
+@media screen and (max-width: 768px) {
+  .user__edit {
+    max-width: 10px;
+    margin: 37px 0 0 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user__edit {
+    border: 1px solid #ffffff;
+    max-width: 7.5px;
+    padding: 5.25px;
+    margin: 0 0 0 97px;
+    right: 5px;
+    grid-area: edit;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form__edit {
+    max-width: 238px;
+  }
+}

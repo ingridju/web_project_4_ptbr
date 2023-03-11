@@ -1,0 +1,10 @@
+.cards__like_button {
+  max-width: 21px;
+}
+
+.cards__like_button:hover {
+  background-color: #000000;
+  opacity: 0.7;
+  position: relative;
+  cursor: pointer;
+}

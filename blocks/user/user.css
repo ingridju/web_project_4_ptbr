@@ -5,3 +5,29 @@
     "picture name edit adicionar"
     "picture description . .";
 }
+
+@media screen and (max-width: 768px) {
+  .user {
+    display: grid;
+    grid-template-columns: 160px 310px 90px;
+    grid-template-rows: 100px 50px;
+    grid-template-areas:
+      "picture name edit"
+      "picture description adicionar";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 160px 2px 24px 80px;
+    justify-items: center;
+    grid-template-areas:
+      "picture"
+      "name"
+      "edit"
+      "description"
+      "add";
+  }
+}

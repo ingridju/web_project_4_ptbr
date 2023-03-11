@@ -19,3 +19,9 @@
 @import url(../blocks/form/__write_camp/form__write_camp.css);
 @import url(../blocks/form/__save_button/form__save_button.css);
 @import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__like_block/cards__like_block.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__like_button/cards__like_button.css);
+@import url(../blocks/footer/__author/footer__author.css);

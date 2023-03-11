@@ -3,3 +3,10 @@
   max-width: 40px;
   grid-area: close;
 }
+
+@media screen and (max-width: 320px) {
+  .popup__closed_button {
+    max-width: 26px;
+    justify-self: end;
+  }
+}

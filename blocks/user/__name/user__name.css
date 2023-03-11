@@ -5,3 +5,22 @@
   line-height: 48px;
   grid-area: name;
 }
+
+@media screen and (max-width: 768px) {
+  .user__name {
+    max-width: 310px;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 48px;
+    grid-area: name;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user__name {
+    max-width: 196px;
+    font-size: 22px;
+    margin: 0 0 0 -20px;
+    line-height: 27px;
+  }
+}

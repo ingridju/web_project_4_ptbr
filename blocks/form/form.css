@@ -1,7 +1,14 @@
-.popup__form {
+.form {
   max-width: 430px;
   grid-area: form;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   background-color: #ffff;
+}
+
+@media screen and (max-width: 320px) {
+  .form {
+    max-width: 282px;
+    margin: 13.62px 0 0 0;
+  }
 }

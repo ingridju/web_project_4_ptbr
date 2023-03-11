@@ -7,3 +7,25 @@
   box-sizing: border-box;
   grid-area: adicionar;
 }
+
+@media screen and (max-width: 768px) {
+  .user__add_images {
+    border: 2px solid #ffffff;
+    max-width: 80px;
+    padding: 14px 34px 14px 34px;
+    margin: 0 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user__add_images {
+    border: 2px solid #ffffff;
+    max-width: 282px;
+    padding: 17px 133px 17px 133px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    margin: 0;
+    box-sizing: border-box;
+    grid-area: adicionar;
+  }
+}
