@@ -1,0 +1,10 @@
+.popupPage{
+ z-index: 1;
+ background-color: black;
+ opacity: 0.5;
+ height: 1217px;
+ width: 100%;
+ position: absolute;
+ inset: -3em 0 0 0;
+ display: none;
+ }

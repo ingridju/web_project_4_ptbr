@@ -1,38 +1,29 @@
 .popup {
-  display: grid;
   max-width: 478.28px;
   position: fixed;
-  top: 119px;
+  top: 17%;
   left: 41%;
-  grid-template-areas:
-    ".close"
-    "form.";
   display: none;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
   .popup {
-    display: grid;
     max-width: 478.28px;
     position: fixed;
-    top: 119px;
+    top: 17%;
     left: 22%;
-    grid-template-areas:
-      ".close"
-      "form.";
     display: none;
   }
 }
 
 @media screen and (max-width: 320px) {
   .popup {
-    display: grid;
     max-width: 282px;
     position: fixed;
     left: 19px;
-    grid-template-areas:
-      "close"
-      "form";
     display: none;
   }
 }
+
+

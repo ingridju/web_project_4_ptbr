@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="stylesheet" href="../pages/index.css" />
     <title>Around the U.S</title>
   </head>
   <body class="root">
@@ -25,7 +25,7 @@
           />
           <h1 class="user__name">Jacques Cousteau</h1>
           <h2 class="user__description">Explorar</h2>
-          <a class="user__link-edit" href="#"
+          <a class="user__link-edit" type="button" href="#"
             ><img
               class="user__edit"
               src="../images/edit_button__image.png"
@@ -38,12 +38,13 @@
               alt="clique aqui para adiconar imagens"
           /></a>
         </nav>
-        <div class="page-popup">
+        <div class="popupPage" >
+        </div>
           <main class="popup">
             <img
-              class="popup__closed_button"
+              class="popup__close_button"
               src="./images/close_button.png"
-              alt="clique para fecha a pagina"
+              alt="clique para fechar a pagina"
             />
             <section class="form">
               <h1 class="form__title">Editar perfil</h1>
@@ -52,7 +53,7 @@
                   class="form__write_camp"
                   placeholder="Nome"
                   type="text"
-                  name="user name"
+                  name="username"
                   id="name"
                 />
 
@@ -72,7 +73,7 @@
               </form>
             </section>
           </main>
-        </div>
+
         <section class="cards">
           <figure class="cards__item">
             <img
@@ -171,5 +172,6 @@
         </section>
       </main>
     </div>
+    <script src="./javascript.js"></script>
   </body>
 </html>
